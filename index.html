@@ -59,11 +59,23 @@
             background-image: url(https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/IMG/Call-us-image.jpg);
         }
 
-        @media (min-width: 768px) {
-            .site-section {
-                padding: 5em 0;
-            }
+        .service_area .service_thumb img {
+            width: 100%;
         }
+
+        .about_info_area {
+            padding-bottom: 0px;
+        }
+
+        .site-section {
+            padding: 0em 0;
+        }
+
+        .case_study_area {
+            padding-top: 50px;
+        }
+
+        @media (min-width: 768px) {}
     </style>
 </head>
 
@@ -352,14 +364,22 @@
     </section>
     <section class="service_area">
         <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="section_title text-center mb-50">
-                        <h3>What we Do?</h3>
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="about_text">
+                        <h3>Hi</h3>
+                        <p>About paragraph</p>
+                        <!-- <a href="#" class="boxed-btn3">About Us</a> -->
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="service_thumb">
+                        <img src="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/IMG/consulting-image.jpg"
+                            alt="">
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-xl-4 col-md-6 col-lg-4">
                     <div class="single_service text-center">
                         <div class="service_icon">
@@ -420,110 +440,198 @@
                         <a href="#" class="learn_more">Learn More</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <section class="site-section border-bottom" id="services-section">
         <div class="container">
-            <div class="row justify-content-center mb-5">
+            <div class="row justify-content-center">
                 <div class="col-md-8 text-center aos-init aos-animate" data-aos="fade-up">
                     <h2 class="text-black h1 site-section-heading text-center">Our Services</h2>
                 </div>
             </div>
-            <div class="row align-items-stretch">
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 aos-init aos-animate" data-aos="fade-up">
-                    <div class="unit-4 d-flex">
-                        <div class="unit-4-icon mr-4"><span class="text-primary icon-laptop2"></span></div>
-                        <div>
-                            <h3>Web Design</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae
-                                eligendi at.</p>
-                            <p><a href="#">Learn More</a></p>
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single_service text-center">
+                        <div class="service_icon">
+                            <img src="https://colorlib.com/preview/theme/conbusi/img/svg_icon/1.svg" alt="">
                         </div>
+                        <h3>Marketing</h3>
+                        <a href="#" class="learn_more">Learn More</a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 aos-init aos-animate" data-aos="fade-up"
-                    data-aos-delay="100">
-                    <div class="unit-4 d-flex">
-                        <div class="unit-4-icon mr-4"><span class="text-primary icon-shopping_cart"></span></div>
-                        <div>
-                            <h3>eCommerce</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae
-                                eligendi at.</p>
-                            <p><a href="#">Learn More</a></p>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single_service text-center">
+                        <div class="service_icon">
+                            <img src="https://colorlib.com/preview/theme/conbusi/img/svg_icon/1.svg" alt="">
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 aos-init aos-animate" data-aos="fade-up"
-                    data-aos-delay="200">
-                    <div class="unit-4 d-flex">
-                        <div class="unit-4-icon mr-4"><span class="text-primary icon-question_answer"></span></div>
-                        <div>
-                            <h3>Web Applications</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae
-                                eligendi at.</p>
-                            <p><a href="#">Learn More</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 aos-init aos-animate" data-aos="fade-up"
-                    data-aos-delay="300">
-                    <div class="unit-4 d-flex">
-                        <div class="unit-4-icon mr-4"><span class="text-primary icon-format_paint"></span></div>
-                        <div>
-                            <h3>Branding</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae
-                                eligendi at.</p>
-                            <p><a href="#">Learn More</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 aos-init aos-animate" data-aos="fade-up"
-                    data-aos-delay="400">
-                    <div class="unit-4 d-flex">
-                        <div class="unit-4-icon mr-4"><span class="text-primary icon-extension"></span></div>
-                        <div>
-                            <h3>Copy Writing</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae
-                                eligendi at.</p>
-                            <p><a href="#">Learn More</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 aos-init aos-animate" data-aos="fade-up"
-                    data-aos-delay="500">
-                    <div class="unit-4 d-flex">
-                        <div class="unit-4-icon mr-4"><span class="text-primary icon-phonelink"></span></div>
-                        <div>
-                            <h3>Mobile Applications</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae
-                                eligendi at.</p>
-                            <p><a href="#">Learn More</a></p>
-                        </div>
+                        <h3>Web Development</h3>
+                        <a href="#" class="learn_more">Learn More</a><!-- Background changes when mouse hovers over -->
                     </div>
                 </div>
             </div>
+            <!-- <div class="row align-items-stretch">
+                <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                    <div class="Appointment">
+                        <div class="book_btn d-none d-lg-block">
+                            <a href="#">Get a Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
         </div>
     </section>
     <section class="about_info_area" id="about-section">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6">
-                    <div class="about_text">
-                        <h3>Why our Consulting?</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem.
-                            It esteems luckily or picture placing drawing. Apartments frequently or motionless on
-                            reasonable.</p>
-                        <a href="#" class="boxed-btn3">About Us</a>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6">
-                    <div class="about_thumb">
-                        <img src="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/IMG/consulting-image.jpg"
-                            alt="">
-                    </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center aos-init aos-animate" data-aos="fade-up">
+                    <h2 class="text-black h1 site-section-heading text-center">Why our consulting?</h2>
                 </div>
             </div>
+            <div class="row">
+                <div class="col">
+                    <p>Were not going to tell you why you need us,<br>
+                        We'll let other people tell you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="site-section testimonial-wrap" id="testimonial-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2 class="text-black h1 site-section-heading text-center">Testimonials</h2>
+                </div>
+            </div>
+        </div>
+        <div class="slide-one-item home-slider owl-carousel">
+            <div>
+                <div class="testimonial">
+                    <blockquote class="mb-5">
+                        <p>&ldquo;Chloe is an enthusiastic, highly motivated colleague and she would be
+                            an asset to any organisation lucky enough to employ her!&rdquo;</p>
+                    </blockquote>
+                    <figure class="mb-4 d-flex align-items-center justify-content-center">
+                        <div><img
+                                src="https://media-exp1.licdn.com/dms/image/C4D03AQE3ZRUToLH9Yw/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=Sqx8nxMnMhssxyYdBOoTkUjDLk2mBorVMStM-CEVliw"
+                                alt="Clair Ongley" class="w-50 img-fluid mb-3"></div>
+                        <p>Clair Ongley</p>
+                    </figure>
+                </div>
+            </div>
+            <div class="testimonial">
+                <blockquote class="mb-5">
+                    <p>&ldquo;Got hold of Max on a tight time frame needing a website.
+                        Within 36 hours I had a working template ready to host and get
+                        my business up and running. Very professional and keeps to his word.&rdquo;</p>
+                </blockquote>
+                <figure class="mb-4 d-flex align-items-center justify-content-center">
+                    <div>
+                        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQELRxu7q2_Wpw/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=Tq0fxczMw9ks-kgKLMD6oeymc0TXe_qSfXn0-yk1_mc"
+                            alt="Martyn Church" class="w-50 img-fluid mb-3">
+                    </div>
+                    <p>Martyn Church - Fourlens</p>
+                </figure>
+            </div>
+            <!-- <div class="testimonial">
+                    <blockquote class="mb-5">
+                        <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit
+                            aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt
+                            consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                    </blockquote>
+                    <figure class="mb-4 d-flex align-items-center justify-content-center">
+                        <div><img src="images/person_5.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
+                        <p>Dennis Neblett - Purple Room Beatz</p>
+                    </figure>
+                </div> -->
+            <div class="testimonial">
+                <blockquote class="mb-5">
+                    <p>&ldquo;Chloe is a fantastic worker and a great member of a team to have.
+                        She is creative, proactive and supportive. She will make a positive difference to
+                        any business.&rdquo;</p>
+                </blockquote>
+                <figure class="mb-4 d-flex align-items-center justify-content-center">
+                    <div><img
+                            src="https://media-exp1.licdn.com/dms/image/C4D03AQHMLaGcyCCBow/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=o5bBfubUOnRQ8WZOR3WYWlHrqdLyp3KMGJHOswSLNl8"
+                            alt="Charlotte Norris" class="w-50 img-fluid mb-3"></div>
+                    <p>Charlotte Norris</p>
+                </figure>
+            </div>
+            <div class="testimonial">
+                <blockquote class="mb-5">
+                    <p>&ldquo;Chole is a great hard working professional, always determined to get the job done,
+                        and put the customer needs first.&rdquo;</p>
+                </blockquote>
+                <figure class="mb-4 d-flex align-items-center justify-content-center">
+                    <div><img src="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/IMG/person-ghost.png"
+                            alt="Nathaniel Evanson" class="w-50 img-fluid mb-3"></div>
+                    <p>Nathaniel Evanson</p>
+                </figure>
+            </div>
+            <div class="testimonial">
+                <blockquote class="mb-5">
+                    <p>&ldquo;I would recommend Chloe for her marketing skills and knowledge. She worked very
+                        hard for Global Guardians and was very thorough with her market reasearch on our industry.
+                        She also worked closely with our sales team to help support and achieve results.&rdquo;</p>
+                </blockquote>
+                <figure class="mb-4 d-flex align-items-center justify-content-center">
+                    <div><img
+                            src="https://media-exp1.licdn.com/dms/image/C5603AQFIlt5tgFafhA/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=OdZiuNEjxL-AQhcSfqXGI4yqJdspKMfVlnVDzTG4fNA"
+                            alt="Stuart Woolgar" class="w-50 img-fluid mb-3"></div>
+                    <p>Stuart Woolgar</p>
+                </figure>
+            </div>
+            <div class="testimonial">
+                <blockquote class="mb-5">
+                    <p>&ldquo;Chloe is a fantastic individual that takes alot of pride in her work and always
+                        delivers 110%. She is a true asset to any organisation and brings value to her team
+                        and organisation.&rdquo;</p>
+                </blockquote>
+                <figure class="mb-4 d-flex align-items-center justify-content-center">
+                    <div><img src="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/IMG/person-ghost.png"
+                            alt="Zuhrah Samim" class="w-50 img-fluid mb-3"></div>
+                    <p>Zuhrah Samim</p>
+                </figure>
+            </div>
+            <div class="testimonial">
+                <blockquote class="mb-5">
+                    <p>&ldquo;Chole was an honour to work with and was a great part of the team. She always
+                        had a smile on her face and never gave up untill the task was completed. She had
+                        many great ideas which led us to some great marketing strategies!&rdquo;</p>
+                </blockquote>
+                <figure class="mb-4 d-flex align-items-center justify-content-center">
+                    <div><img
+                            src="https://media-exp1.licdn.com/dms/image/C5103AQGlK2wNlTzlBg/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=yDW2i6sSWImz7e9eZiUNZP59FqsqNEMmm7XtWokWcmU"
+                            alt="Remi Gutteridge" class="w-50 img-fluid mb-3"></div>
+                    <p>Remi Gutteridge</p>
+                </figure>
+            </div>
+            <div class="testimonial">
+                <blockquote class="mb-5">
+                    <p>&ldquo;Chloe is a very committed and effective person.&rdquo;</p>
+                </blockquote>
+                <figure class="mb-4 d-flex align-items-center justify-content-center">
+                    <div><img src="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/IMG/person-ghost.png"
+                            alt="Julian Sierra" class="w-50 img-fluid mb-3"></div>
+                    <p>Julian Sierra</p>
+                </figure>
+            </div>
+            <div class="testimonial">
+                <blockquote class="mb-5">
+                    <p>&ldquo;Chloe is a motivated, forward thinking and highly professional in her job role.
+                        She consistently demonstrates her knowledge of marketing and is very capable of working
+                        individually and as part of a team. She adapts to new working environments and is very
+                        reliable, loyal and trustworthy colleague. Chloe has a positive attitude towards everything
+                        she does I would highly recommend her.&rdquo;</p>
+                </blockquote>
+                <figure class="mb-4 d-flex align-items-center justify-content-center">
+                    <div><img
+                            src="https://media-exp1.licdn.com/dms/image/C4D03AQEkH0-JDI5Uyw/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=B-i4CS7TEjdLhDLxfK7iyxiJmS3ijaXK5_QH7tp3RYY"
+                            alt="Priyanka Gandhi" class="w-50 img-fluid mb-3"></div>
+                    <p>Priyanka Gandhi</p>
+                </figure>
+            </div>
+
         </div>
     </section>
     <section class="case_study_area" id="case-study-section">
@@ -683,144 +791,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="site-section testimonial-wrap" id="testimonial-section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 text-center">
-                    <h2 class="text-black h1 site-section-heading text-center">Testimonials</h2>
-                </div>
-            </div>
-        </div>
-        <div class="slide-one-item home-slider owl-carousel">
-            <div>
-                <div class="testimonial">
-                    <blockquote class="mb-5">
-                        <p>&ldquo;Chloe is an enthusiastic, highly motivated colleague and she would be
-                            an asset to any organisation lucky enough to employ her!&rdquo;</p>
-                    </blockquote>
-                    <figure class="mb-4 d-flex align-items-center justify-content-center">
-                        <div><img
-                                src="https://media-exp1.licdn.com/dms/image/C4D03AQE3ZRUToLH9Yw/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=Sqx8nxMnMhssxyYdBOoTkUjDLk2mBorVMStM-CEVliw"
-                                alt="Clair Ongley" class="w-50 img-fluid mb-3"></div>
-                        <p>Clair Ongley</p>
-                    </figure>
-                </div>
-            </div>
-            <div class="testimonial">
-                <blockquote class="mb-5">
-                    <p>&ldquo;Got hold of Max on a tight time frame needing a website.
-                        Within 36 hours I had a working template ready to host and get
-                        my business up and running. Very professional and keeps to his word.&rdquo;</p>
-                </blockquote>
-                <figure class="mb-4 d-flex align-items-center justify-content-center">
-                    <div>
-                        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQELRxu7q2_Wpw/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=Tq0fxczMw9ks-kgKLMD6oeymc0TXe_qSfXn0-yk1_mc"
-                            alt="Martyn Church" class="w-50 img-fluid mb-3">
-                    </div>
-                    <p>Martyn Church - Fourlens</p>
-                </figure>
-            </div>
-            <!-- <div class="testimonial">
-                    <blockquote class="mb-5">
-                        <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit
-                            aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt
-                            consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-                    </blockquote>
-                    <figure class="mb-4 d-flex align-items-center justify-content-center">
-                        <div><img src="images/person_5.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                        <p>Dennis Neblett - Purple Room Beatz</p>
-                    </figure>
-                </div> -->
-            <div class="testimonial">
-                <blockquote class="mb-5">
-                    <p>&ldquo;Chloe is a fantastic worker and a great member of a team to have.
-                        She is creative, proactive and supportive. She will make a positive difference to
-                        any business.&rdquo;</p>
-                </blockquote>
-                <figure class="mb-4 d-flex align-items-center justify-content-center">
-                    <div><img
-                            src="https://media-exp1.licdn.com/dms/image/C4D03AQHMLaGcyCCBow/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=o5bBfubUOnRQ8WZOR3WYWlHrqdLyp3KMGJHOswSLNl8"
-                            alt="Charlotte Norris" class="w-50 img-fluid mb-3"></div>
-                    <p>Charlotte Norris</p>
-                </figure>
-            </div>
-            <div class="testimonial">
-                <blockquote class="mb-5">
-                    <p>&ldquo;Chole is a great hard working professional, always determined to get the job done,
-                        and put the customer needs first.&rdquo;</p>
-                </blockquote>
-                <figure class="mb-4 d-flex align-items-center justify-content-center">
-                    <div><img src="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/IMG/person-ghost.png"
-                            alt="Nathaniel Evanson" class="w-50 img-fluid mb-3"></div>
-                    <p>Nathaniel Evanson</p>
-                </figure>
-            </div>
-            <div class="testimonial">
-                <blockquote class="mb-5">
-                    <p>&ldquo;I would recommend Chloe for her marketing skills and knowledge. She worked very
-                        hard for Global Guardians and was very thorough with her market reasearch on our industry.
-                        She also worked closely with our sales team to help support and achieve results.&rdquo;</p>
-                </blockquote>
-                <figure class="mb-4 d-flex align-items-center justify-content-center">
-                    <div><img
-                            src="https://media-exp1.licdn.com/dms/image/C5603AQFIlt5tgFafhA/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=OdZiuNEjxL-AQhcSfqXGI4yqJdspKMfVlnVDzTG4fNA"
-                            alt="Stuart Woolgar" class="w-50 img-fluid mb-3"></div>
-                    <p>Stuart Woolgar</p>
-                </figure>
-            </div>
-            <div class="testimonial">
-                <blockquote class="mb-5">
-                    <p>&ldquo;Chloe is a fantastic individual that takes alot of pride in her work and always
-                        delivers 110%. She is a true asset to any organisation and brings value to her team
-                        and organisation.&rdquo;</p>
-                </blockquote>
-                <figure class="mb-4 d-flex align-items-center justify-content-center">
-                    <div><img src="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/IMG/person-ghost.png"
-                            alt="Zuhrah Samim" class="w-50 img-fluid mb-3"></div>
-                    <p>Zuhrah Samim</p>
-                </figure>
-            </div>
-            <div class="testimonial">
-                <blockquote class="mb-5">
-                    <p>&ldquo;Chole was an honour to work with and was a great part of the team. She always
-                        had a smile on her face and never gave up untill the task was completed. She had
-                        many great ideas which led us to some great marketing strategies!&rdquo;</p>
-                </blockquote>
-                <figure class="mb-4 d-flex align-items-center justify-content-center">
-                    <div><img
-                            src="https://media-exp1.licdn.com/dms/image/C5103AQGlK2wNlTzlBg/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=yDW2i6sSWImz7e9eZiUNZP59FqsqNEMmm7XtWokWcmU"
-                            alt="Remi Gutteridge" class="w-50 img-fluid mb-3"></div>
-                    <p>Remi Gutteridge</p>
-                </figure>
-            </div>
-            <div class="testimonial">
-                <blockquote class="mb-5">
-                    <p>&ldquo;Chloe is a very committed and effective person.&rdquo;</p>
-                </blockquote>
-                <figure class="mb-4 d-flex align-items-center justify-content-center">
-                    <div><img src="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/IMG/person-ghost.png"
-                            alt="Julian Sierra" class="w-50 img-fluid mb-3"></div>
-                    <p>Julian Sierra</p>
-                </figure>
-            </div>
-            <div class="testimonial">
-                <blockquote class="mb-5">
-                    <p>&ldquo;Chloe is a motivated, forward thinking and highly professional in her job role.
-                        She consistently demonstrates her knowledge of marketing and is very capable of working
-                        individually and as part of a team. She adapts to new working environments and is very
-                        reliable, loyal and trustworthy colleague. Chloe has a positive attitude towards everything
-                        she does I would highly recommend her.&rdquo;</p>
-                </blockquote>
-                <figure class="mb-4 d-flex align-items-center justify-content-center">
-                    <div><img
-                            src="https://media-exp1.licdn.com/dms/image/C4D03AQEkH0-JDI5Uyw/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=B-i4CS7TEjdLhDLxfK7iyxiJmS3ijaXK5_QH7tp3RYY"
-                            alt="Priyanka Gandhi" class="w-50 img-fluid mb-3"></div>
-                    <p>Priyanka Gandhi</p>
-                </figure>
-            </div>
-
         </div>
     </section>
     <!-- <div class="accordion_area">
