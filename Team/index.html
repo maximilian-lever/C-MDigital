@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- 
+    Look at layouts
+    Look at fonts
+ -->
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Company Name - Team</title>
-    <meta name="description" content="Digital Agency">
+    <title>Digital Agency</title>
+    <meta name="description"
+        content="London digital Agency specialised in Sales, Marketing, Web Development and Maintenance">
+    <meta name="location" content="London">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="https://colorlib.com/preview/theme/conbusi/img/favicon.png">
-    <!-- <script type="text/javascript" src="./script.json"></script> -->
-    <script type="text/javascript" src="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/JavaScript/script.json"></script>
-    <link rel="stylesheet" href="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/CSS/bootstrap.min.css">
+    <script type="text/javascript"
+        src="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/JavaScript/script.json"></script>
     <link rel="stylesheet"
         href="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/CSS/owl.carousel.min.css">
     <link rel="stylesheet" href="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/CSS/magnific-popup.css">
-    <link rel="stylesheet" href="https://colorlib.com/preview/theme/conbusi/css/font-awesome.min.css">
+    <!-- THIS IS SLOWING THE SITE DOWN -->
+    <!-- <link rel="stylesheet" id="font-awesome-5-css" href="https://www.maximilian-lever.com/vendor/fontawesome-free/css/all.min.css" type="text/css" media="all"> -->
     <link rel="stylesheet" href="https://colorlib.com/preview/theme/conbusi/css/themify-icons.css">
     <link rel="stylesheet" href="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/CSS/nice-select.css">
     <link rel="stylesheet" href="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/CSS/flaticon.css">
@@ -25,17 +31,21 @@
     <link rel="stylesheet" href="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/CSS/style.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
     <!-- Testimonials -->
-    <link rel="stylesheet" href="https://colorlib.com/preview/theme/create/css/bootstrap.min.css"><!-- Testimonials -->
+    <link rel="stylesheet" href="https://colorlib.com/preview/theme/create/css/bootstrap.min.css">
+    <!-- Testimonials -->
     <link rel="stylesheet" href="https://colorlib.com/preview/theme/create/css/owl.carousel.min.css">
     <!-- Testimonials -->
-    <link rel="stylesheet" href="https://colorlib.com/preview/theme/create/css/style.css"><!-- Testimonials -->
+    <link rel="stylesheet" href="https://colorlib.com/preview/theme/create/css/style.css">
+    <!-- Testimonials -->
     <style>
+        /* .about_info_area {padding-bottom: 0px;} */
+        /* .case_study_area {padding-top: 50px;} */
         .deepKoamaru {
             color: #2b4162;
         }
 
         .UCLABlue {
-            color: #55638a;
+            color: #55648b;
         }
 
         .paleCerulean {
@@ -46,22 +56,91 @@
             color: #00f2f2;
         }
 
-        .brandeisBlue {
-            color: #0075f2;
+        .btn {
+            color: #ffffff;
+            background: #0075f2;
+            padding: 15px;
+            width: 200px;
         }
+
+        .header-area {
+            position: fixed;
+        }
+
+        /* .header-area .main-header-area {
+            background: rgba(0,0,0,0.5);
+        } */
 
         h1 {
             color: #ffffff;
         }
 
-        h3 {text-align: center;}
+        .header-area .main-header-area {
+            padding: 0px;
+        }
 
-        p{text-align: center;}
+        nav {
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        .navbar .container h1 {
+            margin-right: 20px;
+        }
+
+        .navbar-light .navbar-nav .active>.nav-link,
+        .navbar-light .navbar-nav .nav-link.active,
+        .navbar-light .navbar-nav .nav-link.show,
+        .navbar-light .navbar-nav .show>.nav-link {
+            color: #00f2f2;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: #ffffff;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        section {
+            padding-top: 100px;
+            padding-bottom: 70px;
+        }
+
+        .border-bottom {
+            border-bottom: 0px solid #dee2e6 !important;
+        }
 
         .slider_bg_1 {
             height: 100vh;
             background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url(https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/IMG/hero-bg.jpg);
             background-size: cover;
+        }
+
+        .slider_area {
+            padding: 0px;
+        }
+
+        .slider_area .single_slider {
+            height: 750px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        #heroH3 {
+            font-family: poppins, sans-serif;
+            text-transform: capitalize;
+            letter-spacing: 2px;
+            font-weight: 300;
+            line-height: 76px;
+            margin-bottom: 15px;
+            color: #fff;
         }
 
         .Information_area {
@@ -72,162 +151,157 @@
             width: 100%;
         }
 
-        .about_info_area {
+        #services-section {
+            padding-top: 0px;
             padding-bottom: 0px;
         }
 
-        .site-section {
-            padding: 0em 0;
+        #services-section .container {
+            max-width: 100%;
         }
 
-        .case_study_area {
-            padding-top: 50px;
+        .row {
+            width: 100%;
+            margin: 0px;
         }
 
-        @media (min-width: 320px) {}
+        .w-50 {
+            width: 50px !important;
+        }
+
+        .services {
+            font-size: 2.5rem;
+        }
+
+        .testimonial figure img {
+            max-width: 100px;
+            margin: 0 auto;
+            border-radius: 50%;
+        }
+
+        .slide-one-item .owl-dots .owl-dot span {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #dee2e6;
+        }
+
+        .slide-one-item .owl-dots .owl-dot.active span {
+            background: #32dbc6;
+        }
+
+        .slide-one-item .owl-dots {
+            text-align: center;
+        }
+
+        .slide-one-item .owl-dots .owl-dot {
+            display: inline-block;
+            margin: 4px;
+        }
+
+        .slide-one-item.home-slider .owl-nav {
+            position: absolute !important;
+            top: 50% !important;
+            bottom: auto !important;
+            width: 100%;
+        }
+
+        .testimonial-wrap .owl-nav {
+            display: none;
+        }
+
+        .block-13 .owl-nav,
+        .slide-one-item .owl-nav {
+            position: relative;
+            position: absolute;
+            bottom: -90px;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+        }
+
+        @media (min-width: 320px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            #heroH3 {
+                font-size: 42px;
+            }
+
+            #services-section .container {
+                padding: 6vh 15px;
+            }
+
+            .services {
+                padding-top: 40px;
+            }
+        }
+
         @media (min-width: 360px) {}
+
         @media (min-width: 375px) {}
+
         @media (min-width: 411px) {}
+
         @media (min-width: 414px) {}
+
         @media (min-width: 768px) {}
-        @media (min-width: 1024px) {}
+
+        @media (min-width: 1024px) {
+            h1 {
+                font-size: 40px;
+            }
+
+            #services-section .container {
+                padding: 34vh 0vw 44vh 0vw;
+            }
+
+            .services {
+                font-size: 5rem;
+            }
+        }
     </style>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-            <![endif]-->
+                <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+                <![endif]-->
     <header>
         <div class="header-area ">
             <div id="sticky-header" class="main-header-area">
-                <div class="container">
-                    <div class="header_bottom_border">
-                        <div class="row align-items-center">
-                            <div class="col-xl-3 col-lg-2">
-                                <div class="logo">
-                                    <a href="index.html">
-                                        <!-- <img src="https://colorlib.com/preview/theme/conbusi/img/logo.png" alt=""> -->
-                                        <h1 class="companyName">companyName</h1>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-7">
-                                <div class="main-menu  d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li>
-                                                <a class="active" href="index.html">home</a>
-                                            </li>
-                                            <li>
-                                                <a href="#services-section">services</a>
-                                            </li>
-                                            <li>
-                                                <a href="#about-section">about</a>
-                                            </li>
-                                            <li>
-                                                <a href="#case-study-section">case studies</a>
-                                            </li>
-                                            <li>
-                                                <a href="#team-section">team</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">pages <i class="ti-angle-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li>
-                                                        <a href="case_details.html">case details</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="about.html">about</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="elements.html">elements</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 d-none d-lg-block">
-                                <div class="Appointment">
-                                    <div class="book_btn d-none d-lg-block">
-                                        <a href="#">Get a Quote</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none">
-                                    <div class="slicknav_menu">
-                                        <a href="#" aria-haspopup="true" role="button" tabindex="0"
-                                            class="slicknav_btn slicknav_collapsed">
-                                            <span class="slicknav_menutxt">MENU</span>
-                                            <span class="slicknav_icon">
-                                                <span class="slicknav_icon-bar"></span>
-                                                <span class="slicknav_icon-bar"></span>
-                                                <span class="slicknav_icon-bar"></span>
-                                            </span>
-                                        </a>
-                                        <ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu"
-                                            style="display: none;">
-                                            <li>
-                                                <a class="active" href="index.html" role="menuitem"
-                                                    tabindex="-1">home</a>
-                                            </li>
-                                            <li class="slicknav_collapsed slicknav_parent">
-                                                <a href="#" role="menuitem" aria-haspopup="true" tabindex="-1"
-                                                    class="slicknav_item slicknav_row">
-                                                    <a href="#" tabindex="-1">pages <i class="ti-angle-down"></i></a>
-                                                    <span class="slicknav_arrow">+</span>
-                                                </a>
-                                                <ul class="submenu slicknav_hidden" role="menu" aria-hidden="true"
-                                                    style="display: none;">
-                                                    <li>
-                                                        <a href="case_details.html" role="menuitem" tabindex="-1">case
-                                                            details</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="about.html" role="menuitem" tabindex="-1">about</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="elements.html" role="menuitem"
-                                                            tabindex="-1">elements</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="services.html" role="menuitem" tabindex="-1">Services</a>
-                                            </li>
-                                            <li>
-                                                <a href="study.html" role="menuitem" tabindex="-1">Case study</a>
-                                            </li>
-                                            <li class="slicknav_collapsed slicknav_parent">
-                                                <a href="#" role="menuitem" aria-haspopup="true" tabindex="-1"
-                                                    class="slicknav_item slicknav_row">
-                                                    <a href="#" tabindex="-1">blog <i class="ti-angle-down"></i></a>
-                                                    <span class="slicknav_arrow">+</span>
-                                                </a>
-                                                <ul class="submenu slicknav_hidden" role="menu" aria-hidden="true"
-                                                    style="display: none;">
-                                                    <li>
-                                                        <a href="blog.html" role="menuitem" tabindex="-1">blog</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="single-blog.html" role="menuitem"
-                                                            tabindex="-1">single-blog</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="contact.html" role="menuitem" tabindex="-1">Contact</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                        <a href="index.html">
+                            <h1 class="companyName">companyName</h1>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fas fa-bars"></i>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Case Studies</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Team <span class="sr-only">(current)</span></a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </div>
+                </nav>
             </div>
         </div>
     </header>
@@ -242,7 +316,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="col-sm">
                         <div class="single_team">
                             <div class="team_thumb">
                                 <img src="https://media-exp1.licdn.com/dms/image/C5603AQExPOioy0F-4w/profile-displayphoto-shrink_100_100/0?e=1591833600&v=beta&t=1uJqRzhWEp9WN6cQ_5yiIjt56VObdrK8Yc48K3maVOo"
@@ -264,7 +338,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="col-sm">
                         <div class="single_team">
                             <div class="team_thumb">
                                 <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEQHCf_n1TS2A/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=Ycyk_g2QLnm1lsr1GXqLKJEw5WN836gqCvxZ5jYuydw"
@@ -285,42 +359,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="contact_form_quote">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-5 col-lg-6">
-                    <div class="form_wrap">
-                        <h3>Get Free Quote</h3>
-                        <form action="#">
-                            <input type="text" placeholder="Your Name">
-                            <input type="email" placeholder="Email">
-                            <textarea name="#" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                            <button class="boxed-btn3">Send</button>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-xl-6 offset-xl-1 col-lg-6">
-                    <div class="contact_thumb">
-                        <img src="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/IMG/quote-image.jpg"
-                            alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="Information_area overlay">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-xl-8">
-                    <div class="info_text text-center">
-                        <h3>For Any Information Call Us</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                        <a class="boxed-btn3" href="#">+10 673 763 6786</a>
                     </div>
                 </div>
             </div>
@@ -422,19 +460,13 @@
             </div>
         </div>
     </footer>
-    <script
-        src="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/JavaScript/jquery/jquery-3.3.1.js"></script>
-    <!-- Testimonials -->
-    <script src="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/JavaScript/carousel.js"></script>
-    <!-- Testimonials -->
-    <script src="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/JavaScript/aos.js"></script>
-    <!-- Testimonials -->
-    <script src="https://s3.eu-west-2.amazonaws.com/maximilian-lever.com-assets/JavaScript/main.js"></script>
-    <!-- Testimonials -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
     <script>
-        document.getElementsByClassName("companyName")[0].innerHTML = name;
-        document.getElementsByClassName("companyName")[1].innerHTML = name;
-        document.getElementsByClassName("companyName")[2].innerHTML = name;
+        for (var i = 0; i <= 2; i++) {
+            document.getElementsByClassName("companyName")[i].innerHTML = company[0].name;
+        }
     </script>
 </body>
 
