@@ -1148,3 +1148,6 @@ h6,
 .site-branding img, .site-header .site-logo-img .custom-logo-link img {
   max-width: 20%;
 }
+.testimonial{
+  border-radius: 60px !important;
+}
