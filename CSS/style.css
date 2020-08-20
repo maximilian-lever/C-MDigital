@@ -14,6 +14,12 @@ img.emoji {
 html {
   font-size: 100%;
 }
+.fontSmall{
+  font-size: 1rem !important;
+}
+.fontMedium{
+  font-size: 1.4rem !important;
+}
 a,
 .page-title {
   color: #0fa597;
@@ -1157,6 +1163,32 @@ h6,
 .ast-theme-transparent-header .main-header-menu, .ast-theme-transparent-header .main-header-menu .menu-link, .ast-theme-transparent-header .ast-masthead-custom-menu-items, .ast-theme-transparent-header .ast-masthead-custom-menu-items a, .ast-theme-transparent-header .main-header-menu .menu-item > .ast-menu-toggle, .ast-theme-transparent-header .main-header-menu .menu-item > .ast-menu-toggle {
   color: #000000;
 }
+.fl-node-59edc91d90a91{
+  padding: 0% 39%;
+}
+@media (min-width:320px){
+  .fl-node-59edc91d90a91 {
+    padding: 0% 20%;
+  }
+  .fontMedium{
+    font-size: 1.2rem !important;
+  }
+}
+@media (min-width:375px){
+  .fl-node-59edc91d90a91 {
+    padding: 0% 24%;
+  }
+}
+@media (min-width:425px){
+  .fl-node-59edc91d90a91 {
+    padding: 0% 27%;
+  }
+}
+@media (min-width:768px){
+  .fl-node-59edc91d90a91 {
+    padding: 0% 37%;
+  }
+}
 @media (min-width:922px){
   .ast-theme-transparent-header .main-header-menu .menu-item:hover > .menu-link, .ast-theme-transparent-header .main-header-menu .menu-item:hover > .ast-menu-toggle, .ast-theme-transparent-header .main-header-menu .ast-masthead-custom-menu-items a:hover, .ast-theme-transparent-header .main-header-menu .focus > .menu-link, .ast-theme-transparent-header .main-header-menu .focus > .ast-menu-toggle, .ast-theme-transparent-header .main-header-menu .current-menu-item > .menu-link, .ast-theme-transparent-header .main-header-menu .current-menu-ancestor > .menu-link, .ast-theme-transparent-header .main-header-menu .current-menu-item > .ast-menu-toggle, .ast-theme-transparent-header .main-header-menu .current-menu-ancestor > .ast-menu-toggle {
     color: #ffffff;
@@ -1165,3 +1197,27 @@ h6,
     color: #ffffff;
   }
 }
+@media (min-width:1440px){
+  .fl-node-59edc91d90a91 {
+    padding: 0% 39%;
+  }
+}
+/* 
+#105969 Chathams Blue
+#20a1ac Eastern Blue
+#4fbdc5 Fountain Blue
+#8fe1ec Blizzard Blue
+#f3f7ed Ecru White
+*/
+/* Brand Start */
+.fl-node-59ed953534ecb > .fl-row-content-wrap {background-color: #20a1ac;padding-top: 120px;padding-bottom: 130px;}
+.fl-node-59edaec0d9dfb > .fl-row-content-wrap:after {background-color: #20a1ace6;}
+.fl-node-59edc4f832bc6 > .fl-row-content-wrap:after {background-color: #20a1ace6;}
+.fl-node-59edd0a094b4f > .fl-row-content-wrap:after {background-color: #20a1accc;padding-top: 120px;padding-bottom: 130px;}
+.button {background-color: #4fbdc5!important;}
+h1, h2, h3, h4, h5, h6{color: #f3f7ed!important;}
+.ecruWhite {color: #f3f7ed!important;}
+.entry-content h2{color: #105969!important;}
+.entry-content h3{color: #105969!important;}
+.uabb-heading-text{color: #105969!important;}
+/* Brand End */
